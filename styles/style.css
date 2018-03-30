@@ -1,0 +1,89 @@
+html {
+    background-color: #134f5c;
+    width: 100%;
+    height: 100%;
+    clip: auto;
+    position: absolute;
+    overflow: hidden;
+}
+
+body{
+    margin: 0 auto;
+}
+
+h1,h2,h3 {
+    color:#E0FFFF;
+    font-family: 'Syncopate', sans-serif;
+    margin: 0;
+}
+
+.logo {
+    width: 50%;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.logopic{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    letter-spacing: 0.2em;
+    padding: 5em 0em 0.5em 0em;
+}
+
+h2 {
+    margin-bottom: 3em;
+}
+
+
+.startbox{
+    border: solid 4px #E0FFFF;
+    width: 30%;
+    padding: 4em 2em;
+    position:relative;
+    left: 57%;
+    bottom: 550px;
+    
+}
+
+h3, form {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+input, button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 0.8em;
+}
+
+input[type=text]{
+    text-align: left;
+    margin-bottom: 2em;
+    padding: 0.8em 8em 0.8em 0.4em;
+    font-size: 1em;
+    font-style: italic;
+}
+
+input[type=submit]{      
+    background-color:gainsboro;
+    border: 3px #e0ffff;
+    font-weight: bold;
+    margin-bottom: 2em;
+    padding: 0.6em 2em;
+    cursor: pointer;
+}
+
+button {
+    padding: 1em 8em;
+    font-size: 0.8em;
+    cursor: pointer;
+}
