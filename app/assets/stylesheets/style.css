@@ -70,7 +70,21 @@ input[type=text]{
     margin-bottom: 2em;
     padding: 0.8em 8em 0.8em 0.4em;
     font-size: 1em;
-    font-style: italic;
+    font-style: normal;
+    
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
 }
 
 input[type=submit]{      
